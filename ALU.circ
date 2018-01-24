@@ -465,9 +465,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(180,180)" to="(210,180)"/>
     <wire from="(50,250)" to="(80,250)"/>
     <wire from="(80,180)" to="(110,180)"/>
-    <wire from="(280,310)" to="(310,310)"/>
-    <wire from="(280,290)" to="(310,290)"/>
     <wire from="(360,300)" to="(390,300)"/>
+    <wire from="(280,290)" to="(300,290)"/>
+    <wire from="(280,310)" to="(300,310)"/>
     <wire from="(70,170)" to="(70,210)"/>
     <wire from="(70,340)" to="(220,340)"/>
     <wire from="(280,310)" to="(280,350)"/>
@@ -492,7 +492,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="tristate" val="false"/>
       <a name="label" val="B"/>
     </comp>
-    <comp lib="1" loc="(270,170)" name="NOR Gate"/>
     <comp lib="0" loc="(390,170)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
@@ -506,9 +505,10 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="C(out)"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="1" loc="(360,300)" name="OR Gate"/>
     <comp lib="1" loc="(270,350)" name="AND Gate"/>
-    <comp lib="1" loc="(170,170)" name="NOR Gate"/>
+    <comp lib="1" loc="(270,170)" name="XOR Gate"/>
+    <comp lib="1" loc="(170,170)" name="XOR Gate"/>
+    <comp lib="1" loc="(360,300)" name="XOR Gate"/>
   </circuit>
   <circuit name="Add4">
     <a name="circuit" val="Add4"/>
